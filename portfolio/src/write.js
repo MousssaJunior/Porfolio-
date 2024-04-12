@@ -1,25 +1,23 @@
-import { useEffect, useRef,useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
-export function Typing(TextTotype,
-    interKeyStrokeDurationInMs) {
-
+export function Typing(TextToType, interKeyStrokeDurationInMs) {
     const [currentPosition, setcurrentPosition] = useState(0);
     const currentPositionRef = useRef();
-    useEffect(() => {
-      const intervalId =  setInterval(() => {
-        console.log("interval");
-            setcurrentPosition((value) => value + 1);
-            currentPositionRef.current += 1;
-            if(currentPositionRef.current > TextTotype.length){
-                clearInterval(intervalId);
-            }
-        }, interKeyStrokeDurationInMs);
-        return () =>{
-         clearInterval(intervalId);
-         currentPositionRef.current = 0;
-         setcurrentPosition(0)
-        }
-    }, [interKeyStrokeDurationInMs,TextTotype]);
-    return TextTotype.substring(0, currentPosition);
-}
 
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            setcurrentPosition((value) => {
+                const nextPosition = value + 1;
+               
+                if (nextPosition > TextToType.length) {
+                    return 0;
+                }
+                return nextPosition;
+            });
+        }, interKeyStrokeDurationInMs);
+
+        return () => clearInterval(intervalId);
+    }, [interKeyStrokeDurationInMs, TextToType]);
+
+    return TextToType.substring(0, currentPosition);
+}
