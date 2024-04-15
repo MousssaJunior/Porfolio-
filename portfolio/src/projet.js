@@ -9,17 +9,23 @@ function Projets() {
             <div className="projet">
                 <a>
                     <img src={puissance4} alt='puissance4' />
+                 <h3> puissance4</h3>
                 </a>
             </div>
+
             <div className="projet">
                 <a>
                     <img src={puissance4} alt='puissance4' />
+                    <h3> puissance4</h3>
                 </a>
+
             </div>
+
             <div className="projet">
-                <a>
+                
                     <img src={puissance4} alt='puissance4' />
-                </a>
+                    <h3> puissance4</h3>
+                
             </div>
 
             </div>

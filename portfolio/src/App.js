@@ -4,6 +4,7 @@ import Main from './main';
 import Propos from './propos';
 import Tecno from './tecno';
 import Projets from './projet';
+import Contact from './contact';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Propos />
       <Tecno />      
       <Projets />
+      <Contact />
 
       </div>
 
