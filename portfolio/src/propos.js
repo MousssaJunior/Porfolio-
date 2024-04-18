@@ -1,15 +1,39 @@
+// import CV  from "./cv/CV_Moussa Junior_FOFANA.pdf";
+
+import poly from "./image/avantages/polyvalence.png"
+import rapide from "./image/avantages/rapide.png"
+import time from "./image/avantages/time.png"
+
 function Propos() {
     return (
-        <section id="propos">
-
-       <div className="texte-me">
-          <h1>FOFANA Moussa Junior</h1>
-         <h4> 
-         Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la
-         </h4>
-       </div>
-       <div className="image-header">
-        <img src="https://cdn.glitch.global/fdfa92cc-dea0-411e-aa3f-f8f7e3d466cb/default%20avatar.jpg?v=1712649198932" alt="Avatar" />
+        <section id="propos " className="wrap">
+        <h2 class="d-flex center">Ce que vous gagnez avec Moi </h2>
+        <div class="cards-avantage d-flex space-around">
+          <div id="gain-de-temps" class="card-avantage">
+            <img  src={time}
+            />
+            <div class="avantage-text">
+              <p><strong>Economiser</strong> du temps en laissant nos Trispers gérer le recyclage
+              </p>
+            </div>
+            
+          </div>
+          <div id="gestion-dechets " class="card-avantage">
+            <img src={rapide}/>
+            <div class="avantage-text">
+            <p>
+              <strong>Rapidité</strong> la gestion de vos déchets en faisant appel à nos trispers
+            </p>
+            </div>
+          </div>
+          <div id="conseil-adapter" class="card-avantage">
+            <img
+              src={poly}
+            />
+            <div class="avantage-text">
+            <p><strong>fléxibilité</strong> des conseils et adaptés à votre situation</p>
+            </div>
+          </div>
         </div>
 
   </section>

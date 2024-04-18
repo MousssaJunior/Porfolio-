@@ -3,8 +3,10 @@ import puissance4 from'./image/puissance4.png';
 
 function Projets() {
     return (
-        <section>
+        <section id="realisation" className="wrap">
+              <h2 class="d-flex center">Voici ce que je peux réaliser</h2>
             <div className="projets">
+          
 
             <div className="projet">
                 <a>

@@ -1,15 +1,19 @@
-
-import emailjs from  "@emailjs/browser"
+// import idev from "./image/idev.jpg"
+import emailjs from "@emailjs/browser"
 function Contact() {
 
-const envoyerEmail = (e) => {
-  e.preventDefault();
-  // alert("envoyer")
-  emailjs.sendForm('service_iaa4yv9','template_6s3usqs',e.target,'CyMitm2XZyriZM4EQ')
-}
+  const envoyerEmail = (e) => {
+    e.preventDefault();
+    // alert("envoyer")
+    emailjs.sendForm('service_iaa4yv9', 'template_6s3usqs', e.target, 'CyMitm2XZyriZM4EQ')
+  }
 
   return (
-    <section className="grille centre"> 
+    <section className="grille centre">
+
+      {/* <img src="/" /> */}
+
+
       <form className="formulaire-contact" onSubmit={envoyerEmail}>
         <ul>
           <li>
