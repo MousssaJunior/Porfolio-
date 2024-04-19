@@ -18,7 +18,7 @@ import figma from './image/Logo/figma.webp';
 function Tecno() {
     return (
         <section className="grid center" id='all-tecno'>
-            <h2 class="d-flex center">Avec quelles Technologie je réalise mes projets</h2>
+            <h2 class="d-flex center">Je réalise mes projets avec</h2>
             <div id="tecno">
 
 

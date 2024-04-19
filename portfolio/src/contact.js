@@ -9,7 +9,7 @@ function Contact() {
   }
 
   return (
-    <section className="grille centre">
+    <section className="grille centre" id="formulaire">
 
       {/* <img src="/" /> */}
 
