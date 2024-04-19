@@ -2,6 +2,7 @@ import { Typing } from "./write";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import profilImg from "./image/default-avatar.jpg"
+import cv from './cv/CV_Moussa Junior_FOFANA.pdf'
 function Main() {
   const text = Typing("Web developpeur fullstack", 250);
   return (
@@ -18,6 +19,7 @@ function Main() {
           <ul>
             <li><a href="/"><FontAwesomeIcon icon={faLinkedin} style={{ color: "#74C0FC", fontSize: "2em" }} /></a></li>
             <li><a href="/"><FontAwesomeIcon icon={faGithub} style={{ color: "#B197FC", fontSize: "2em" }} /></a></li>
+            <li><button><a href='' download={cv}> cv</a></button></li>
 
           </ul>
 

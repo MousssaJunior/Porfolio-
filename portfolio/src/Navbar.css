@@ -1,11 +1,11 @@
 .navbar {
-  /* position: absolute; */
   padding: 30px;
   display: flex;
   justify-content: space-around;
   width: 100%;
   align-items: center;
   box-sizing: border-box;
+  position: sticky;
   
 
 }
