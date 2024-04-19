@@ -6,19 +6,19 @@ import time from "./image/avantages/time.png"
 
 function Propos() {
     return (
-        <section id="propos " className="wrap">
+        <section id="propos" className="wrap">
         <h2 class="d-flex center">Ce que vous gagnez avec Moi </h2>
         <div class="cards-avantage d-flex space-around">
           <div id="gain-de-temps" class="card-avantage">
             <img  src={time}
             />
-            <div class="avantage-text">
+            <div className="avantage-text">
               <p><strong>Economiser</strong> du temps en laissant nos Trispers gérer le recyclage
               </p>
             </div>
             
           </div>
-          <div id="gestion-dechets " class="card-avantage">
+          <div  className="card-avantage">
             <img src={rapide}/>
             <div class="avantage-text">
             <p>
@@ -26,11 +26,11 @@ function Propos() {
             </p>
             </div>
           </div>
-          <div id="conseil-adapter" class="card-avantage">
+          <div id="conseil-adapter" className="card-avantage">
             <img
               src={poly}
             />
-            <div class="avantage-text">
+            <div className="avantage-text">
             <p><strong>fléxibilité</strong> des conseils et adaptés à votre situation</p>
             </div>
           </div>

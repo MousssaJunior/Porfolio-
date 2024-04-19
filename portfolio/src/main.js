@@ -19,8 +19,7 @@ function Main() {
           <ul>
             <li><a href="/"><FontAwesomeIcon icon={faLinkedin} style={{ color: "#74C0FC", fontSize: "2em" }} /></a></li>
             <li><a href="/"><FontAwesomeIcon icon={faGithub} style={{ color: "#B197FC", fontSize: "2em" }} /></a></li>
-            <li><button><a href='' download={cv}> cv</a></button></li>
-
+            <li><button className="cv" ><a href='' download={cv} > cv</a></button></li>
           </ul>
 
         </div>

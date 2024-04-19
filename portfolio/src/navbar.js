@@ -2,6 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import menu from './image/whitemenu.png';
 import {menuburger} from './menu-burger.js'
+import {link} from 'react-router-dom';
 
 const Navbar = () => {
  
@@ -11,10 +12,10 @@ const Navbar = () => {
       <a href="#" className="logo"> Moussa</a>
       <div className="nav-links"> 
       <ul>
-        <li className="active"><a href="#">A propos</a></li>
-        <li><a href="#">Technologie</a></li>
-        <li><a href="#">Réalisations</a></li>
-        <li><a href="#">Contact</a></li>
+        <li className="active"><a href='#propos'>A propos</a></li>
+        <li><a href="#all-tecno">Technologie</a></li>
+        <li><a href="#realisation">Réalisations</a></li>
+        <li><a href="#formulaire">Contact</a></li>
       </ul>
       </div>
      <img onClick ={menuburger}src={menu} alt='menu burger' className='menu-burger'/>

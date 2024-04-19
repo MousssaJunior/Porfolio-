@@ -15,6 +15,9 @@
   color: white;
   text-decoration: none;
 }
+.navbar a:hover {
+color: #9628d1;
+}
 
 .navbar .logo {
   font-size: 2em;
