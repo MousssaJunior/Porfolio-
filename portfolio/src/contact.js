@@ -12,6 +12,8 @@ function Contact() {
     <section className="grille centre" id="formulaire">
 
       {/* <img src="/" /> */}
+      <h2 class="d-flex center">Contactez moi</h2>
+
 
 
       <form className="formulaire-contact" onSubmit={envoyerEmail}>

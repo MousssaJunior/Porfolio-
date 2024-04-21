@@ -10,7 +10,8 @@ export function Typing(TextToType, interKeyStrokeDurationInMs) {
                 const nextPosition = value + 1;
                
                 if (nextPosition > TextToType.length) {
-                    return 0;
+                    clearInterval(intervalId);
+                    return value;
                 }
                 return nextPosition;
             });

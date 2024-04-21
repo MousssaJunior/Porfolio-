@@ -13,8 +13,7 @@ function Main() {
       <div className="texte-me">
         <h1>{text}</h1>
         <h4>
-        FOFANA Mousssa Junior Professionnel, dynamique et polyvalent, passionné par l'informatique, Mon ambition est d'apporter des innovations numériques et des solutions performantes, significatives aux entreprises dans un environnement en constante évolution, un univers qui ne me lasse jamais.
-
+        Fofana Moussa Junior, passionné par les jeux vidéo, les animes et le sport, je suis un développeur web créatif qui transforme ses passions en projets numériques captivants. Explorez mon portfolio pour voir comment je combine ma passion pour la technologie avec mes intérêts personnels pour créer mes projets.
         </h4>
         <div className="main-icone">
           <ul>

@@ -258,7 +258,7 @@ h2 {
 .projet img {
   width: 100%;
   height: 80%;
-  object-fit: contain;
+  object-fit: cover;
   filter: brightness(50%);
   transition: .4s ease;
 }
