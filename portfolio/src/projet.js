@@ -18,7 +18,7 @@ function Projets() {
             </div>
 
             <div className="projet">
-                <a href='https://github.com/MousssaJunior/Trisper' target='_blank'>
+                <a href=' https://mousssajunior.github.io/Trisper/' target='_blank'>
                     <img src={Trisper} alt='Trisper' />
                     <h3> Trisper</h3>
                 </a>
