@@ -1,7 +1,7 @@
 import { Typing } from "./write";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import profilImg from "./image/default-avatar.jpg"
+import profilImg from "./image/Metanguy.webp"
 import cv from './cv/CV_Moussa Junior_FOFANA.pdf'
 function Main() {
   const text = Typing("Web developpeur fullstack", 250);
@@ -13,7 +13,8 @@ function Main() {
       <div className="texte-me">
         <h1>{text}</h1>
         <h4>
-          Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la
+        FOFANA Mousssa Junior Professionnel, dynamique et polyvalent, passionné par l'informatique, Mon ambition est d'apporter des innovations numériques et des solutions performantes, significatives aux entreprises dans un environnement en constante évolution, un univers qui ne me lasse jamais.
+
         </h4>
         <div className="main-icone">
           <ul>

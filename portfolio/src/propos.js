@@ -13,7 +13,7 @@ function Propos() {
             <img  src={time}
             />
             <div className="avantage-text">
-              <p><strong>Economiser</strong> du temps en laissant nos Trispers gérer le recyclage
+              <p><strong>Economiser</strong> du temps et de l'argent en me laissant faire le coter visuel et fonctionnel de votre site  
               </p>
             </div>
             
@@ -22,7 +22,7 @@ function Propos() {
             <img src={rapide}/>
             <div class="avantage-text">
             <p>
-              <strong>Rapidité</strong> la gestion de vos déchets en faisant appel à nos trispers
+              <strong>Rapidité</strong> : En passant par une personne vous gagnez vitesse d'éxecution 
             </p>
             </div>
           </div>
@@ -31,7 +31,7 @@ function Propos() {
               src={poly}
             />
             <div className="avantage-text">
-            <p><strong>fléxibilité</strong> des conseils et adaptés à votre situation</p>
+            <p><strong>fléxibilité</strong> Je connais les probleme que peuvent rencontrer </p>
             </div>
           </div>
         </div>

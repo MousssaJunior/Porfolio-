@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
 
 body {
+  overflow-x: hidden;
   width: 100svw;
 
   #root {
@@ -97,38 +98,6 @@ h2 {
   color: #61dafb;
 }
 
-/* .navbar {
-  z-index: 10;
-  position: fixed;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  background-color: rgb(26, 24, 8, 0.1);
-  color: white;
-  backdrop-filter: blur(5px);
-}
-
-.navbar li {
-  list-style: none;
-}
-
-.navbar ul {
-  padding: 0;
-  gap: 25px;
-  display: flex;
-  text-align: center;
-}
-
-
-.navbar a {
-  text-decoration: none;
-  padding: 1em;
-  display: block;
-  width: 5em;
-  color: white;
-} */
-
 .main-icone ul {
   gap: 1em;
   display: flex;
@@ -168,7 +137,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;  /* background-image: linear-gradient(to bottom, #0000, #0000, #7e2cab, #7e2cab); */
+  justify-content: center; 
 }
 
 .cards-avantage {
@@ -178,8 +147,6 @@ h2 {
 .card-avantage {
   height: auto;
   width: 20em;
-
-
 
 }
 
@@ -214,8 +181,10 @@ h2 {
   border: none;
 }
 
-.cv button {
+.cv {
   border-radius: 2em;
+  width: 4em;
+  padding: 0.6em;
 }
 
 .cv:hover {
@@ -465,6 +434,11 @@ form li {
     max-width: 318px;
 
   }
+
+  .image-header img {
+    border-radius: 50%;
+    height: 12em;
+}
 
   .main-icone ul {
     justify-content: center;
