@@ -24,7 +24,7 @@ function Propos() {
             <img src="./image/avantages/rapide.png"/>
             <div className="avantage-text">
             <p>
-             Ma capacité à m'adapter me permet d'être rapidement opérationnel.
+             Ma capacité à m&apos;adapter me permet d&apos;être rapidement opérationnel.
             </p>
             </div>
           </div>

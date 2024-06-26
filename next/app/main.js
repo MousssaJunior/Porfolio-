@@ -10,7 +10,7 @@ function Main() {
     return (
         <section id="me">
             <div className="image-header">
-                <img src="./image/Metanguy.webp"/>
+                <img src= "./image/Metanguy.webp"/>
             </div>
             <div className="texte-me">
                 <h1>{text}</h1>
