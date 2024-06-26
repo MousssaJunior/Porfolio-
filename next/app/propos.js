@@ -1,7 +1,7 @@
 // import CV  from "./cv/CV_Moussa Junior_FOFANA.pdf";
 
-import poly from "../image/avantages/polyvalence.png"
-import rapide from "../image/avantages/rapide.png"
+
+// import rapide from "../image/avantages/rapide.png"
 // import time from "../image/avantages/time.png"
 
 function Propos() {
@@ -21,7 +21,7 @@ function Propos() {
           </div> */}
 
           <div  className="card-avantage">
-            <img src={rapide}/>
+            <img src="./image/avantages/rapide.png"/>
             <div className="avantage-text">
             <p>
              Ma capacité à m'adapter me permet d'être rapidement opérationnel.
@@ -30,7 +30,7 @@ function Propos() {
           </div>
           <div id="conseil-adapter" className="card-avantage">
             <img
-              src={poly}
+              src="./image/avantages/polyvalence.png"
             />
             <div className="avantage-text">
             <p>Maîtrisant le front-end et le back-end, je peux  contribuer à votre projet </p>

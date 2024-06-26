@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import menu from '../image/whitemenu.png';
+// import menu from './image/whitemenu.png';
 import {menuburger} from './menu-burger.js'
 
 const Navbar = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
         <li><a href="#formulaire">Contact</a></li>
       </ul>
       </div>
-     <img onClick ={menuburger}src={menu} alt='menu burger' className='menu-burger'/>
+     <img onClick ={menuburger}src='./image/whitemenu.png' alt='menu burger' className='menu-burger'/>
     </nav>
   );
 };
