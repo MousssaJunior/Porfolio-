@@ -10,16 +10,6 @@ function Propos() {
         <h2 className="d-flex center">Ce que vous gagnez avec Moi </h2>
         <div className="cards-avantage d-flex space-around">
 
-          {/* <div id="gain-de-temps" className="card-avantage">
-            <img  src={time}
-            />
-            <div className="avantage-text">
-              <p>
-              </p>
-            </div>
-            
-          </div> */}
-
           <div  className="card-avantage">
             <img src="./image/avantages/rapide.png"/>
             <div className="avantage-text">
