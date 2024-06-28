@@ -34,8 +34,8 @@ function Projets() {
             </div>
 
             <div className="projet">
-                  <a href='https://github.com/EpitechWebAcademiePromo2025/W-JSC-502-PAR-2-1-snapchat-moussa-junior.fofana' target='_blank'>
-                    <img src='./image/Juna.png' alt='Mysnap' />
+                  <a href='https://github.com/MousssaJunior/Mysnapchat' target='_blank'>
+                    <img src='./image/Snapchat.webp' alt='Mysnap' />
                     <h3>Mysnapchat</h3>
                   </a>
             </div>

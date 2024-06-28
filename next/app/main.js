@@ -19,8 +19,8 @@ function Main() {
                 </h4>
                 <div className="main-icone">
                     <ul>
-                        <li><a href="/https://www.linkedin.com/in/moussa-junior-fofana-52319426b/"><FontAwesomeIcon icon={faLinkedin} style={{ color: "#74C0FC", fontSize: "2em" }} /></a></li>
-                        <li><a href="/https://github.com/MousssaJunior?tab=repositories"><FontAwesomeIcon icon={faGithub} style={{ color: "#B197FC", fontSize: "2em" }} /></a></li>
+                        <li><a href="https://www.linkedin.com/in/moussa-junior-fofana-52319426b/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} style={{ color: "#74C0FC", fontSize: "2em" }} /></a></li>
+                        <li><a href="https://github.com/MousssaJunior?tab=repositories" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} style={{ color: "#B197FC", fontSize: "2em" }} /></a></li>
                         <li><button className="cv" ><a href='.\cv\CV_Moussa Junior_FOFANA.pdf' download>CV</a></button></li>
                     </ul>
 
