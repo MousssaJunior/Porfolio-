@@ -18,22 +18,6 @@ function Projets() {
             </div>
 
             <div className="projet">
-                <a href=' https://mousssajunior.github.io/Trisper/' target='_blank'>
-                    <img src='./image/Trisper2.png' alt='Trisper' />
-                    <h3> Trisper</h3>
-                </a>
-
-            </div>
-
-            <div className="projet">
-                  <a href='https://www.figma.com/proto/vPHpPGbthIQ7RsNTvymsGp/Tu?page-id=1%3A4&type=design&node-id=91-9&viewport=534%2C417%2C0.04&t=lZFIjb3nFOGU6ME6-1&scaling=scale-down&starting-point-node-id=85%3A348&mode=design' target='_blank'>
-                    <img src='./image/Juna.png' alt='juna' />
-                    <h3> Juna</h3>
-                  </a>
-                
-            </div>
-
-            <div className="projet">
                   <a href='https://github.com/MousssaJunior/Mysnapchat' target='_blank'>
                     <img src='./image/Snapchat.webp' alt='Mysnap' />
                     <h3>Mysnapchat</h3>

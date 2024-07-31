@@ -10,7 +10,7 @@ function Main() {
     return (
         <section id="me">
             <div className="image-header">
-                {/* <img src= "./image/Metanguy.webp"/> */}
+                <img src= "./image/Profile/me.jpg"/>
             </div>
             <div className="texte-me">
                 <h1>{text}</h1>
@@ -21,7 +21,7 @@ function Main() {
                     <ul>
                         <li><a href="https://www.linkedin.com/in/moussa-junior-fofana-52319426b/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} style={{ color: "#74C0FC", fontSize: "2em" }} /></a></li>
                         <li><a href="https://github.com/MousssaJunior?tab=repositories" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} style={{ color: "#B197FC", fontSize: "2em" }} /></a></li>
-                        <li><button className="cv" ><a href='.\cv\CV_FOFANA_Moussa.pdf' download>CV</a></button></li>
+                        <li><button className="cv" ><a href='.\cv\cv.pdf' download>CV</a></button></li>
                     </ul>
 
                 </div>
