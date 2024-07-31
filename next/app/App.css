@@ -120,12 +120,13 @@ h2 {
 }
 
 .image-header {
-  width: 50%;
+  /* width: 50%; */
   text-align: center;
+  margin-right: 2em;
 }
 
 .image-header img {
-  border-radius: 50%;
+  border-radius: 135px;
   height: 20em;
 }
 
@@ -360,6 +361,8 @@ form li {
 
   .image-header {
     width: auto;
+    display: grid;
+    justify-content: center;
   }
 
   .main-icone ul {
